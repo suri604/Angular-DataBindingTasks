@@ -1,0 +1,4 @@
+<p>Data from the child component {{message}}</p>
+<app-component2 (childEvent)="message=$event"></app-component2>
+<br>
+<app-component3 [parentData]="message"></app-component3>
